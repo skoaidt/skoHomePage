@@ -1,0 +1,30 @@
+v1.12 (23.2.23) : 오타변경, 기능변경
+[기능변경]
+- index.html
+  - slider 속도 변경 : slick.min.js -> autoplaySpeed 3e3 -> 4e3 변경
+  - 3번째 슬라이드 : 안전문구 fadein -> slideInRight 변경
+
+[오타]
+- index.html 
+  - 전송망 : 긴급보구 -> 긴급복구
+  - B2B 사업 : Wifi -> WiFi
+- field.html
+  - 무선망 운영이란? -> 운용이란?
+- field_core.html
+  - 교환망 운영이란? -> 운용이란?
+- field_wire.html
+  - 전송망 운영이란? -> 운용이란?
+  - 출동요청//물자수급 -> 출동요청/물자수급
+  - Acess망 프론트홀 -> Access망 프론트홀
+- field_infra.html
+  - Infra설비 운영이란? -> 운용이란?
+- field_b2b.html
+  - 에릭슨 등 Global ICT 기업과 Prather Ship -> Partner
+- corporate.html
+  - 따듯한 마음을 -> 따뜻한
+- vision.html
+  - Create Happniess by -> Happiness
+- history.html
+  - 신규 사업영역 확대(선로설계 -> (선로설계)
+- loca01_AOC.html, loca01.html 
+  - footer로고 경로 변경
