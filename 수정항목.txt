@@ -66,3 +66,7 @@ V1.20 (24.06.24)
 - Main화면의 글씨에 shadow 적용하기
 - ESG pdf Download 파일 삭제
 - ESG jpg 이미지 파일 변경 
+
+
+V1.21 (24.06.27)
+- 강북 Access 주소 변경 / 위경도 변경
