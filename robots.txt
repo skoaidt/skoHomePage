@@ -1,2 +1,12 @@
+User-agent: Googlebot
+Disallow:
+
+User-agent: NaverBot
+Disallow:
+
+User-agent: Yeti
+Disallow:
+
+
 User-agent: *
 Disallow: /
