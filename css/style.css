@@ -3543,3 +3543,25 @@ label {
 .vision_bg {
   background-image: url(/images/vision/vision_1920_75.jpg);
 }
+
+.esgWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.esg_hr {
+  margin: 20px 0;
+}
+
+.esgWrapLeft {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.esgWrapRight {
+  font-size: 18px;
+  width: 150px;
+  border: 1px solid #7b7b7b;
+  border-radius: 20px;
+}
