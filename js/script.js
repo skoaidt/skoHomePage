@@ -218,26 +218,26 @@ jQuery(function ($) {
 				prevArrow: '<button type="button" class="carousel-control left" aria-label="carousel-control"><i class="fas fa-chevron-left"></i></button>',
 				nextArrow: '<button type="button" class="carousel-control right" aria-label="carousel-control"><i class="fas fa-chevron-right"></i></button>',
 				responsive: [{
-						breakpoint: 992,
-						settings: {
-							slidesToShow: 3,
-							slidesToScroll: 3
-						}
-					},
-					{
-						breakpoint: 768,
-						settings: {
-							slidesToShow: 2,
-							slidesToScroll: 2
-						}
-					},
-					{
-						breakpoint: 481,
-						settings: {
-							slidesToShow: 1,
-							slidesToScroll: 1
-						}
+					breakpoint: 992,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 3
 					}
+				},
+				{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 481,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
 				]
 			});
 		}
@@ -262,4 +262,26 @@ jQuery(function ($) {
 	});
 
 
+});
+
+
+// 채용공고 팝업
+
+
+$(document).ready(function () {
+	// 페이지 로드 시 팝업 열기
+	$('#popup').fadeIn(350);
+
+	// 팝업 열기 버튼 이벤트
+	$('#open-popup').on('click', function () {
+		$('#popup').fadeIn(350);  // 팝업 표시
+	});
+
+	// 팝업 닫기 버튼 이벤트
+	$('#close-popup').on('click', function () {
+		$('#popup').fadeOut(350);  // 팝업 닫기
+	});
+
+	// Back-to-top 버튼 항상 표시
+	$('#back-to-top').fadeIn();
 });
