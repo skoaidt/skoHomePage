@@ -1,406 +1,528 @@
 <!DOCTYPE html>
 <html lang="ko">
-
-<head>
-
-  <!-- Basic Page Needs
+  <head>
+    <!-- Basic Page Needs
 ================================================== -->
-  <meta charset="utf-8">
-  <title>SK오앤에스</title>
+    <meta charset="utf-8" />
+    <title>SK오앤에스</title>
 
-  <!-- Mobile Specific Metas
+    <!-- Mobile Specific Metas
 ================================================== -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Construction Html5 Template">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Construction Html5 Template" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+    />
 
-  <!-- Favicon
+    <!-- Favicon
 ================================================== -->
-  <link rel="icon" href="/images/logo/SK ons_logo.png">
+    <link rel="icon" href="/images/logo/SK ons_logo.png" />
 
-  <!-- CSS
+    <!-- CSS
 ================================================== -->
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  <!-- FontAwesome -->
-  <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css">
-  <!-- Animation -->
-  <link rel="stylesheet" href="plugins/animate-css/animate.css">
-  <!-- slick Carousel -->
-  <link rel="stylesheet" href="plugins/slick/slick.css">
-  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
-  <!-- Colorbox -->
-  <link rel="stylesheet" href="plugins/colorbox/colorbox.css">
-  <!-- Template styles-->
-  <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css" />
+    <!-- Animation -->
+    <link rel="stylesheet" href="plugins/animate-css/animate.css" />
+    <!-- slick Carousel -->
+    <link rel="stylesheet" href="plugins/slick/slick.css" />
+    <link rel="stylesheet" href="plugins/slick/slick-theme.css" />
+    <!-- Colorbox -->
+    <link rel="stylesheet" href="plugins/colorbox/colorbox.css" />
+    <!-- Template styles-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-</head>
+  <body>
+    <!--/ Topbar end -->
+    <!-- Header start -->
+    <header id="header" class="header-one">
+      <div class="site-navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <!-- 상단 SK 로고 -->
+                <div class="logo">
+                  <a class="d-block" href="sko_main.html">
+                    <img
+                      loading="lazy"
+                      src="images/logo/SK ons_logo_1202.png"
+                      alt="SKons"
+                    />
+                  </a>
+                </div>
+                <!-- 상단 SK 로고 end -->
 
-<body>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse"
+                  aria-controls="navbar-collapse"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
 
-  <!--/ Topbar end -->
-  <!-- Header start -->
-  <header id="header" class="header-one">
-    <div class="site-navigation">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <nav class="navbar navbar-expand-lg navbar-light p-0">
-              <!-- 상단 SK 로고 -->
-              <div class="logo">
-                <a class="d-block" href="sko_main.html">
-                  <img loading="lazy" src="images/logo/SK ons_logo_1202.png" alt="SKons">
-                </a>
-              </div>
-              <!-- 상단 SK 로고 end -->
+                <!-- 상단 네비게이션 바  -->
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav ml-auto align-items-center">
+                    <li class="nav-item dropdown active">
+                      <a
+                        href="sko_main.html"
+                        class="nav-link dropdown-toggle"
+                        data-toggle="dropdown"
+                        >회사소개 <i class="fa fa-angle-down"></i
+                      ></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="ceo.html">CEO 인사말</a></li>
+                        <li><a href="vision.html">Vision</a></li>
+                        <li><a href="history.html">회사연혁</a></li>
+                        <li><a href="field.html">사업분야</a></li>
+                        <li><a href="workculture.html">Working Culture</a></li>
+                        <li><a href="corporate.html">CI/BI</a></li>
+                      </ul>
+                    </li>
 
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
-                aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+                    <li class="nav-item dropdown">
+                      <a
+                        href="#"
+                        class="nav-link dropdown-toggle"
+                        data-toggle="dropdown"
+                        >채용정보 <i class="fa fa-angle-down"></i
+                      ></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="talent.html">인재상</a></li>
+                        <li><a href="hr_develop.html">인재육성</a></li>
+                        <li><a href="benefits.html">인사 및 복리후생</a></li>
+                        <li><a href="recruit.html">채용안내</a></li>
+                      </ul>
+                    </li>
 
-              <!-- 상단 네비게이션 바  -->
-              <div id="navbar-collapse" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav ml-auto align-items-center">
-                  <li class="nav-item dropdown active">
-                    <a href="sko_main.html" class="nav-link dropdown-toggle" data-toggle="dropdown">회사소개 <i
-                        class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href="ceo.html">CEO 인사말</a></li>
-                      <li><a href="vision.html">Vision</a></li>
-                      <li><a href="history.html">회사연혁</a></li>
-                      <li><a href="field.html">사업분야</a></li>
-                      <li><a href="workculture.html">Working Culture</a></li>
-                      <li><a href="corporate.html">CI/BI</a></li>
-                    </ul>
-                  </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        href="#"
+                        class="nav-link dropdown-toggle"
+                        data-toggle="dropdown"
+                        >ESG경영<i class="fa fa-angle-down"></i
+                      ></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="esg.html">ESG 추진방향</a></li>
+                      </ul>
+                    </li>
 
-                  <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">채용정보 <i
-                        class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href="talent.html">인재상</a></li>
-                      <li><a href="hr_develop.html">인재육성</a></li>
-                      <li><a href="benefits.html">인사 및 복리후생</a></li>
-                      <li><a href="recruit.html">채용안내</a></li>
-                    </ul>
-                  </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        href="#"
+                        class="nav-link dropdown-toggle"
+                        data-toggle="dropdown"
+                        >윤리경영 <i class="fa fa-angle-down"></i
+                      ></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="ethics.html">윤리강령</a></li>
+                        <li>
+                          <a href="https://ethics.sk.co.kr/"
+                            >윤리경영 상담제보</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
 
-                  <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ESG경영<i
-                        class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href="esg.html">ESG 추진방향</a></li>
-                    </ul>
-                  </li>
-
-                  <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">윤리경영 <i
-                        class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href="ethics.html">윤리강령</a></li>
-                      <li><a href="https://ethics.sk.co.kr/">윤리경영 상담제보</a></li>
-                    </ul>
-                  </li>
-
-                  <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">오시는 길 <i
-                        class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href="/loca00.html">본사</a></li>
-                      <li><a href="/loca01_AOC.html">지역담당</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <!-- 상단 네비게이션 바 end -->
-            </nav>
+                    <li class="nav-item dropdown">
+                      <a
+                        href="#"
+                        class="nav-link dropdown-toggle"
+                        data-toggle="dropdown"
+                        >오시는 길 <i class="fa fa-angle-down"></i
+                      ></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="/loca00.html">본사</a></li>
+                        <li><a href="/loca01_AOC.html">지역본부</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <!-- 상단 네비게이션 바 end -->
+              </nav>
+            </div>
+            <!--/ Col end -->
           </div>
-          <!--/ Col end -->
+          <!--/ Row end -->
         </div>
-        <!--/ Row end -->
+        <!--/ Container end -->
       </div>
-      <!--/ Container end -->
+      <!--/ Navigation end -->
+    </header>
+    <!--/ Header end -->
 
+    <!-- Banner area -->
+    <div
+      id="banner-area"
+      class="banner-area"
+      style="background-image: url(images/banner/banner_01.jpg)"
+    >
+      <div class="banner-text">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="banner-heading">
+                <h1 class="banner-title">회사소개</h1>
+              </div>
+            </div>
+            <!-- Col end -->
+          </div>
+          <!-- Row end -->
+        </div>
+        <!-- Container end -->
+      </div>
+      <!-- Banner text end -->
     </div>
-    <!--/ Navigation end -->
-  </header>
-  <!--/ Header end -->
+    <!-- Banner area end -->
 
+    <!-- 중간 메뉴 area -->
+    <div class="container" style="margin-top: 20px">
+      <div class="row">
+        <div class="col-lg-12">
+          <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <div>
+              <h1 style="color: #6f6f6f !important">사업분야</h1>
+            </div>
 
-  <!-- Banner area -->
-  <div id="banner-area" class="banner-area" style="background-image:url(images/banner/banner_01.jpg)">
-    <div class="banner-text">
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav ml-auto align-items-center">
+                <li>
+                  <a href="vision.html" style="color: #6f6f6f !important"
+                    >HOME - 회사소개 - 사업분야</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <!--/ Col end -->
+      </div>
+      <!--/ Row end -->
+    </div>
+    <!--/ Container end -->
+    <!-- 중간 메뉴 area end-->
+
+    <hr
+      style="
+        border-top: 1px solid #6f6f6f;
+        width: 1200px;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+      "
+    />
+
+    <section id="main-container" class="main-container">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <div class="banner-heading">
-              <h1 class="banner-title">회사소개</h1>
-            </div>
-          </div><!-- Col end -->
-        </div><!-- Row end -->
-      </div><!-- Container end -->
-    </div><!-- Banner text end -->
-  </div><!-- Banner area end -->
-
-  <!-- 중간 메뉴 area -->
-  <div class="container" style="margin-top: 20px;">
-    <div class="row">
-      <div class="col-lg-12">
-        <nav class="navbar navbar-expand-lg navbar-light p-0">
-
-          <div>
-            <h1 style="color:#6f6f6f !important;">사업분야</h1>
-          </div>
-
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav ml-auto align-items-center">
-              <li>
-                <a href="vision.html" style="color:#6f6f6f !important;">HOME - 회사소개 - 사업분야</a>
-              </li>
-
-            </ul>
-          </div>
-
-        </nav>
-      </div>
-      <!--/ Col end -->
-    </div>
-    <!--/ Row end -->
-  </div>
-  <!--/ Container end -->
-  <!-- 중간 메뉴 area end-->
-
-
-  <hr style=" border-top: 1px solid #6f6f6f;
-            width: 1200px;
-            text-align:center;
-            padding: 0;
-            margin :0 auto;">
-
-  <section id="main-container" class="main-container">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-xl-3 col-lg-4">
-          <div class="sidebar sidebar-left">
-            <div class="widget">
-              <h3 class="widget-title">Operating SK ons</h3>
-              <ul class="nav service-menu">
-                <li><a href="field.html">무선망</a></li>
-                <li><a href="field_core.html">교환망</a></li>
-                <li><a href="field_wire.html">전송망</a></li>
-                <li><a href="field_infra.html">Infra설비/전력망</a></li>
-                <li><a href="field_estate.html">자산 Management</a></li>
-                <li class="active"><a href="field_b2b.html">B2B 사업</a></li>
-              </ul>
-            </div><!-- Widget end -->
-
-            <div class="widget">
-              <div class="quote-item quote-border">
-                <div class="quote-text-border">
-                  SK Telecom의 이동통신 ICT Infra 운용을 담당하고 있는 SK Telecom의 자회사로 고객에게 최고의 품질서비스를 제공하는 회사입니다.
-                </div>
-
-                <div class="quote-item-footer">
-                  <div class="quote-item-info">
-                    <h3 class="quote-author">최승원</h3>
-                    <span class="quote-subtext">대표이사</span>
-                  </div>
-                </div>
-              </div><!-- Quote item end -->
-
-            </div><!-- Widget end -->
-
-          </div><!-- Sidebar end -->
-        </div><!-- Sidebar Col end -->
-
-        <div class="col-xl-8 col-lg-8">
-          <div class="content-inner-page">
-
-            <h2 class="column-title mrt-0">B2B 사업 소개</h2>
-
-            <div class="row">
-              <div class="col-md-12">
-                <p>SK오앤에스 B2B(Business-to-Business) 사업은 이동통신 유지보수 전반의 전문 역량과 경험을 기반하여
-                  ICT관련 국가공공사업 및 외부 기업간 Business를 수행 하고있으며, 급변하는 ICT 환경과 Alignment하여
-                  신기술 기반의 New Biz. Model 발굴을 통해 지속적인 성장과 새로운 미래를 만들어가고 있습니다. </p>
-              </div><!-- col end -->
-            </div><!-- 1st row end-->
-
-            <div class="gap-40"></div>
-
-            <div id="page-slider" class="page-slider">
-              <div class="item">
-                <img loading="lazy" class="img-fluid" src="images/field/b2b1.jpg" alt="field-b2b1" />
-              </div>
-              <div class="item">
-                <img loading="lazy" class="img-fluid" src="images/field/b2b2.jpg" alt="field-b2b2" />
-              </div>
-
-
-            </div><!-- Page slider end -->
-
-            <div class="gap-40"></div>
-
-            <div class="row">
-              <div class="col-md-6">
-                <h3 class="column-title-small">B2B사업 Vision</h3>
-
-                <p>“ New Perspectives & Frontierism”
-                  새로운 관점과 개척정신을 기반하여
-                  SK 오앤에스의 B2B 사업은 Partner 사와 함께 최고의 기술력과 고객의 신뢰를 지향 합니다.</p>
-                <ul class="list-arrow">
-                  <li>ESG 관점의 전기차 충전기 관리 사업 진출</li>
-                  <li>구미전자정보기술원 협력 국책과제 개발</li>
-                  <li>에릭슨 등 Global ICT 기업과 Pratner Ship</li>
-                  <li>IoT 활용 건설현장 안전관리 신사업 발굴</li>
+          <div class="col-xl-3 col-lg-4">
+            <div class="sidebar sidebar-left">
+              <div class="widget">
+                <h3 class="widget-title">Operating SK ons</h3>
+                <ul class="nav service-menu">
+                  <li><a href="field.html">무선망</a></li>
+                  <li><a href="field_core.html">교환망</a></li>
+                  <li><a href="field_wire.html">전송망</a></li>
+                  <li><a href="field_infra.html">Infra설비/전력망</a></li>
+                  <li><a href="field_estate.html">자산 Management</a></li>
+                  <li class="active"><a href="field_b2b.html">B2B 사업</a></li>
                 </ul>
               </div>
+              <!-- Widget end -->
 
-              <div class="col-md-6 mt-5 mt-md-0">
-                <h3 class="column-title-small">B2B사업이란?</h3>
-
-                <div class="accordion accordion-group accordion-classic" id="construction-accordion">
-                  <div class="card">
-                    <div class="card-header p-0 bg-transparent" id="headingOne">
-                      <h2 class="mb-0">
-                        <button class="btn btn-block text-left" type="button" data-toggle="collapse"
-                          data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          국가 공공사업은 무엇인가요?
-                        </button>
-                      </h2>
-                    </div>
-
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                      data-parent="#construction-accordion">
-                      <div class="card-body">
-                        일반 이동통신망과 같이 국가에서도 운영하는 이동통신망을 말하며, 대표적으로 행정안전부의 재난안전통신망(PS-LTE)과
-                        철도망 통신 (LTE-R), 공공버스 Wifi 유지보수 사업을 전체적으로 공공사업으로 볼 수 있습니다.
-                      </div>
-                    </div>
+              <div class="widget">
+                <div class="quote-item quote-border">
+                  <div class="quote-text-border">
+                    SK Telecom의 이동통신 ICT Infra 운용을 담당하고 있는 SK
+                    Telecom의 자회사로 고객에게 최고의 품질서비스를 제공하는
+                    회사입니다.
                   </div>
-                  <div class="card">
-                    <div class="card-header p-0 bg-transparent" id="headingTwo">
-                      <h2 class="mb-0">
-                        <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
-                          data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          건설현장 안전관리 신사업이 궁금해요?
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                      data-parent="#construction-accordion">
-                      <div class="card-body">
-                        최근 안전에 대한 사회적 이슈를 고려하여 건설현장에서 안전사고를 예방 할 수 있도록 IoT 를 활용 실시간 감시, 관리 등을
-                        할 수 있도록 IoT Infra 구축과 유지보수를 수행하는 Biz. Model 입니다.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header p-0 bg-transparent" id="headingThree">
-                      <h2 class="mb-0">
-                        <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
-                          data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          B2B사업의 전망은?
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                      data-parent="#construction-accordion">
-                      <div class="card-body">
-                        국내 유일 이동통신 유지보수 단일 기업의 강점을 활용하여 미래성장 핵심 사업 중심으로 Biz. 영역을
-                        수주 확대 하고 있습니다.
-                        <br>
-                        핵심사업 확대 영역은 <br>
-                        - 전기차충전기 유지보수 <br>
-                        - 건설현장 안전관리 솔루션 제공 사업 <br>
-                        - 국가 공공사업 유지보수 및 국책과제 수행
 
-                      </div>
+                  <div class="quote-item-footer">
+                    <div class="quote-item-info">
+                      <h3 class="quote-author">최승원</h3>
+                      <span class="quote-subtext">대표이사</span>
                     </div>
                   </div>
                 </div>
-                <!--/ Accordion end -->
+                <!-- Quote item end -->
+              </div>
+              <!-- Widget end -->
+            </div>
+            <!-- Sidebar end -->
+          </div>
+          <!-- Sidebar Col end -->
+
+          <div class="col-xl-8 col-lg-8">
+            <div class="content-inner-page">
+              <h2 class="column-title mrt-0">B2B 사업 소개</h2>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <p>
+                    SK오앤에스 B2B(Business-to-Business) 사업은 이동통신
+                    유지보수 전반의 전문 역량과 경험을 기반하여 ICT관련
+                    국가공공사업 및 외부 기업간 Business를 수행 하고있으며,
+                    급변하는 ICT 환경과 Alignment하여 신기술 기반의 New Biz.
+                    Model 발굴을 통해 지속적인 성장과 새로운 미래를 만들어가고
+                    있습니다.
+                  </p>
+                </div>
+                <!-- col end -->
+              </div>
+              <!-- 1st row end-->
+
+              <div class="gap-40"></div>
+
+              <div id="page-slider" class="page-slider">
+                <div class="item">
+                  <img
+                    loading="lazy"
+                    class="img-fluid"
+                    src="images/field/b2b1.jpg"
+                    alt="field-b2b1"
+                  />
+                </div>
+                <div class="item">
+                  <img
+                    loading="lazy"
+                    class="img-fluid"
+                    src="images/field/b2b2.jpg"
+                    alt="field-b2b2"
+                  />
+                </div>
+              </div>
+              <!-- Page slider end -->
+
+              <div class="gap-40"></div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <h3 class="column-title-small">B2B사업 Vision</h3>
+
+                  <p>
+                    “ New Perspectives & Frontierism” 새로운 관점과 개척정신을
+                    기반하여 SK 오앤에스의 B2B 사업은 Partner 사와 함께 최고의
+                    기술력과 고객의 신뢰를 지향 합니다.
+                  </p>
+                  <ul class="list-arrow">
+                    <li>ESG 관점의 전기차 충전기 관리 사업 진출</li>
+                    <li>구미전자정보기술원 협력 국책과제 개발</li>
+                    <li>에릭슨 등 Global ICT 기업과 Pratner Ship</li>
+                    <li>IoT 활용 건설현장 안전관리 신사업 발굴</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-6 mt-5 mt-md-0">
+                  <h3 class="column-title-small">B2B사업이란?</h3>
+
+                  <div
+                    class="accordion accordion-group accordion-classic"
+                    id="construction-accordion"
+                  >
+                    <div class="card">
+                      <div
+                        class="card-header p-0 bg-transparent"
+                        id="headingOne"
+                      >
+                        <h2 class="mb-0">
+                          <button
+                            class="btn btn-block text-left"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapseOne"
+                            aria-expanded="true"
+                            aria-controls="collapseOne"
+                          >
+                            국가 공공사업은 무엇인가요?
+                          </button>
+                        </h2>
+                      </div>
+
+                      <div
+                        id="collapseOne"
+                        class="collapse show"
+                        aria-labelledby="headingOne"
+                        data-parent="#construction-accordion"
+                      >
+                        <div class="card-body">
+                          일반 이동통신망과 같이 국가에서도 운영하는
+                          이동통신망을 말하며, 대표적으로 행정안전부의
+                          재난안전통신망(PS-LTE)과 철도망 통신 (LTE-R), 공공버스
+                          Wifi 유지보수 사업을 전체적으로 공공사업으로 볼 수
+                          있습니다.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div
+                        class="card-header p-0 bg-transparent"
+                        id="headingTwo"
+                      >
+                        <h2 class="mb-0">
+                          <button
+                            class="btn btn-block text-left collapsed"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="collapseTwo"
+                          >
+                            건설현장 안전관리 신사업이 궁금해요?
+                          </button>
+                        </h2>
+                      </div>
+                      <div
+                        id="collapseTwo"
+                        class="collapse"
+                        aria-labelledby="headingTwo"
+                        data-parent="#construction-accordion"
+                      >
+                        <div class="card-body">
+                          최근 안전에 대한 사회적 이슈를 고려하여 건설현장에서
+                          안전사고를 예방 할 수 있도록 IoT 를 활용 실시간 감시,
+                          관리 등을 할 수 있도록 IoT Infra 구축과 유지보수를
+                          수행하는 Biz. Model 입니다.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div
+                        class="card-header p-0 bg-transparent"
+                        id="headingThree"
+                      >
+                        <h2 class="mb-0">
+                          <button
+                            class="btn btn-block text-left collapsed"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapseThree"
+                            aria-expanded="false"
+                            aria-controls="collapseThree"
+                          >
+                            B2B사업의 전망은?
+                          </button>
+                        </h2>
+                      </div>
+                      <div
+                        id="collapseThree"
+                        class="collapse"
+                        aria-labelledby="headingThree"
+                        data-parent="#construction-accordion"
+                      >
+                        <div class="card-body">
+                          국내 유일 이동통신 유지보수 단일 기업의 강점을
+                          활용하여 미래성장 핵심 사업 중심으로 Biz. 영역을 수주
+                          확대 하고 있습니다.
+                          <br />
+                          핵심사업 확대 영역은 <br />
+                          - 전기차충전기 유지보수 <br />
+                          - 건설현장 안전관리 솔루션 제공 사업 <br />
+                          - 국가 공공사업 유지보수 및 국책과제 수행
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--/ Accordion end -->
+                </div>
+              </div>
+              <!--2nd row end -->
+
+              <div class="gap-40"></div>
+            </div>
+            <!-- Content inner end -->
+          </div>
+          <!-- Content Col end -->
+        </div>
+        <!-- Main row end -->
+      </div>
+      <!-- Conatiner end -->
+    </section>
+    <!-- Main container end -->
+
+    <footer id="footer" class="footer bg-overlay">
+      <div class="footer-main">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-2 col-md-6 footer-widget footer-about">
+              <!-- <h3 class="widget-title">About Us</h3> -->
+              <img
+                loading="lazy"
+                class="footer-logo"
+                src="images/logo/footer-sk_logo.png"
+                alt="skons_logo"
+              />
+            </div>
+            <!-- Col end -->
+
+            <div class="col-lg-8 col-md-6 footer-widget mt-5 mt-md-0">
+              <!-- <h3 class="widget-title">Working Hours</h3> -->
+              <div class="working-hours">
+                <div>
+                  <span
+                    >07208 서울특별시 영등포구 선유로 49길 23 아이에스비즈타워
+                    2차 9F SK오앤에스(주)
+                  </span>
+                  <span>&nbsp;|&nbsp; </span>
+                  <span>대표이사 최승원</span>
+                </div>
+                <div>
+                  <span>전화 02-6123-2200</span>
+                  <span>&nbsp;|&nbsp; </span>
+                  <span>채용문의 : SKONSRECRUIT@SK.COM</span>
+                </div>
+                <div>
+                  Copyright &copy; SK ons co,. Ltd. All rights reserved.
+                </div>
               </div>
             </div>
-            <!--2nd row end -->
+            <!-- Col end -->
+          </div>
+          <!-- Row end -->
+        </div>
+        <!-- Container end -->
+      </div>
+      <!-- Footer main end -->
 
-            <div class="gap-40"></div>
+      <div
+        id="back-to-top"
+        data-spy="affix"
+        data-offset-top="10"
+        class="back-to-top position-fixed"
+      >
+        <button class="btn btn-primary" title="Back to Top">
+          <i class="fa fa-angle-double-up"></i>
+        </button>
+      </div>
+    </footer>
+    <!-- Footer end -->
 
-
-
-          </div><!-- Content inner end -->
-        </div><!-- Content Col end -->
-
-
-      </div><!-- Main row end -->
-    </div><!-- Conatiner end -->
-  </section><!-- Main container end -->
-
-
-
-  <footer id="footer" class="footer bg-overlay">
-    <div class="footer-main">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-lg-2 col-md-6 footer-widget footer-about">
-            <!-- <h3 class="widget-title">About Us</h3> -->
-            <img loading="lazy" class="footer-logo" src="images/logo/footer-sk_logo.png" alt="skons_logo">
-          </div><!-- Col end -->
-
-          <div class="col-lg-8 col-md-6 footer-widget mt-5 mt-md-0">
-            <!-- <h3 class="widget-title">Working Hours</h3> -->
-            <div class="working-hours">
-              <div>
-                <span>07208 서울특별시 영등포구 선유로 49길 23 아이에스비즈타워 2차 9F SK오앤에스(주) </span>
-                <span>&nbsp;|&nbsp; </span>
-                <span>대표이사 최승원</span>
-              </div>
-              <div>
-                <span>전화 02-6123-2200</span>
-                <span>&nbsp;|&nbsp; </span>
-                <span>채용문의 : SKONSRECRUIT@SK.COM</span>
-              </div>
-              <div>Copyright &copy; SK ons co,. Ltd. All rights reserved.</div>
-            </div>
-          </div><!-- Col end -->
-
-
-        </div><!-- Row end -->
-      </div><!-- Container end -->
-    </div><!-- Footer main end -->
-
-
-    <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
-      <button class="btn btn-primary" title="Back to Top">
-        <i class="fa fa-angle-double-up"></i>
-      </button>
-    </div>
-
-
-  </footer><!-- Footer end -->
-
-
-  <!-- Javascript Files
+    <!-- Javascript Files
   ================================================== -->
 
-  <!-- initialize jQuery Library -->
-  <script src="plugins/jQuery/jquery.min.js"></script>
-  <!-- Bootstrap jQuery -->
-  <script src="plugins/bootstrap/bootstrap.min.js" defer></script>
-  <!-- Slick Carousel -->
-  <script src="plugins/slick/slick.min.js"></script>
-  <script src="plugins/slick/slick-animation.min.js"></script>
-  <!-- Color box -->
-  <script src="plugins/colorbox/jquery.colorbox.js"></script>
-  <!-- shuffle -->
-  <script src="plugins/shuffle/shuffle.min.js" defer></script>
+    <!-- initialize jQuery Library -->
+    <script src="plugins/jQuery/jquery.min.js"></script>
+    <!-- Bootstrap jQuery -->
+    <script src="plugins/bootstrap/bootstrap.min.js" defer></script>
+    <!-- Slick Carousel -->
+    <script src="plugins/slick/slick.min.js"></script>
+    <script src="plugins/slick/slick-animation.min.js"></script>
+    <!-- Color box -->
+    <script src="plugins/colorbox/jquery.colorbox.js"></script>
+    <!-- shuffle -->
+    <script src="plugins/shuffle/shuffle.min.js" defer></script>
 
-
-  <!-- Template custom -->
-  <script src="js/script.js"></script>
-  <!-- Body inner end -->
-</body>
-
+    <!-- Template custom -->
+    <script src="js/script.js"></script>
+    <!-- Body inner end -->
+  </body>
 </html>

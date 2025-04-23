@@ -1,359 +1,435 @@
 <!DOCTYPE html>
 <html lang="ko">
-
-<head>
-
-	<!-- Basic Page Needs
+  <head>
+    <!-- Basic Page Needs
 ================================================== -->
-	<meta charset="utf-8">
-	<title>SK오앤에스</title>
+    <meta charset="utf-8" />
+    <title>SK오앤에스</title>
 
-	<!-- Mobile Specific Metas
+    <!-- Mobile Specific Metas
 ================================================== -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="Construction Html5 Template">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Construction Html5 Template" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+    />
 
-	<!-- Favicon
+    <!-- Favicon
 ================================================== -->
-	<link rel="icon" href="/images/logo/SK ons_logo.png">
+    <link rel="icon" href="/images/logo/SK ons_logo.png" />
 
-	<!-- CSS
+    <!-- CSS
 ================================================== -->
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-	<!-- FontAwesome -->
-	<link rel="stylesheet" href="plugins/fontawesome/css/all.min.css">
-	<!-- Animation -->
-	<link rel="stylesheet" href="plugins/animate-css/animate.css">
-	<!-- slick Carousel -->
-	<link rel="stylesheet" href="plugins/slick/slick.css">
-	<link rel="stylesheet" href="plugins/slick/slick-theme.css">
-	<!-- Colorbox -->
-	<link rel="stylesheet" href="plugins/colorbox/colorbox.css">
-	<!-- Template styles-->
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/tap.css">
-	<!-- Naver Map  -->
-	<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=48amo1kyu5"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css" />
+    <!-- Animation -->
+    <link rel="stylesheet" href="plugins/animate-css/animate.css" />
+    <!-- slick Carousel -->
+    <link rel="stylesheet" href="plugins/slick/slick.css" />
+    <link rel="stylesheet" href="plugins/slick/slick-theme.css" />
+    <!-- Colorbox -->
+    <link rel="stylesheet" href="plugins/colorbox/colorbox.css" />
+    <!-- Template styles-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/tap.css" />
+    <!-- Naver Map  -->
+    <script
+      type="text/javascript"
+      src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=48amo1kyu5"
+    ></script>
+  </head>
 
-</head>
+  <body>
+    <!--/ Topbar end -->
+    <!-- Header start -->
+    <header id="header" class="header-one">
+      <div class="site-navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <!-- 상단 SK 로고 -->
+                <div class="logo">
+                  <a class="d-block" href="sko_main.html">
+                    <img
+                      loading="lazy"
+                      src="images/logo/SK ons_logo_1202.png"
+                      alt="SKons"
+                    />
+                  </a>
+                </div>
+                <!-- 상단 SK 로고 end -->
 
-<body>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse"
+                  aria-controls="navbar-collapse"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
 
-	<!--/ Topbar end -->
-	<!-- Header start -->
-	<header id="header" class="header-one">
-		<div class="site-navigation">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<nav class="navbar navbar-expand-lg navbar-light p-0">
-							<!-- 상단 SK 로고 -->
-							<div class="logo">
-								<a class="d-block" href="sko_main.html">
-									<img loading="lazy" src="images/logo/SK ons_logo_1202.png" alt="SKons">
-								</a>
-							</div>
-							<!-- 상단 SK 로고 end -->
+                <!-- 상단 네비게이션 바  -->
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav ml-auto align-items-center">
+                    <li class="nav-item dropdown active">
+                      <a
+                        href="sko_main.html"
+                        class="nav-link dropdown-toggle"
+                        data-toggle="dropdown"
+                        >회사소개 <i class="fa fa-angle-down"></i
+                      ></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="ceo.html">CEO 인사말</a></li>
+                        <li><a href="vision.html">Vision</a></li>
+                        <li><a href="history.html">회사연혁</a></li>
+                        <li><a href="field.html">사업분야</a></li>
+                        <li><a href="workculture.html">Working Culture</a></li>
+                        <li><a href="corporate.html">CI/BI</a></li>
+                      </ul>
+                    </li>
 
-							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
-								aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-								<span class="navbar-toggler-icon"></span>
-							</button>
+                    <li class="nav-item dropdown">
+                      <a
+                        href="#"
+                        class="nav-link dropdown-toggle"
+                        data-toggle="dropdown"
+                        >채용정보 <i class="fa fa-angle-down"></i
+                      ></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="talent.html">인재상</a></li>
+                        <li><a href="hr_develop.html">인재육성</a></li>
+                        <li><a href="benefits.html">인사 및 복리후생</a></li>
+                        <li><a href="recruit.html">채용안내</a></li>
+                      </ul>
+                    </li>
 
-							<!-- 상단 네비게이션 바  -->
-							<div id="navbar-collapse" class="collapse navbar-collapse">
-								<ul class="nav navbar-nav ml-auto align-items-center">
-									<li class="nav-item dropdown active">
-										<a href="sko_main.html" class="nav-link dropdown-toggle" data-toggle="dropdown">회사소개 <i
-												class="fa fa-angle-down"></i></a>
-										<ul class="dropdown-menu" role="menu">
-											<li><a href="ceo.html">CEO 인사말</a></li>
-											<li><a href="vision.html">Vision</a></li>
-											<li><a href="history.html">회사연혁</a></li>
-											<li><a href="field.html">사업분야</a></li>
-											<li><a href="workculture.html">Working Culture</a></li>
-											<li><a href="corporate.html">CI/BI</a></li>
-										</ul>
-									</li>
+                    <li class="nav-item dropdown">
+                      <a
+                        href="#"
+                        class="nav-link dropdown-toggle"
+                        data-toggle="dropdown"
+                        >ESG경영<i class="fa fa-angle-down"></i
+                      ></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="esg.html">ESG 추진방향</a></li>
+                      </ul>
+                    </li>
 
-									<li class="nav-item dropdown">
-										<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">채용정보 <i
-												class="fa fa-angle-down"></i></a>
-										<ul class="dropdown-menu" role="menu">
-											<li><a href="talent.html">인재상</a></li>
-											<li><a href="hr_develop.html">인재육성</a></li>
-											<li><a href="benefits.html">인사 및 복리후생</a></li>
-											<li><a href="recruit.html">채용안내</a></li>
-										</ul>
-									</li>
+                    <li class="nav-item dropdown">
+                      <a
+                        href="#"
+                        class="nav-link dropdown-toggle"
+                        data-toggle="dropdown"
+                        >윤리경영 <i class="fa fa-angle-down"></i
+                      ></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="ethics.html">윤리강령</a></li>
+                        <li>
+                          <a href="https://ethics.sk.co.kr/"
+                            >윤리경영 상담제보</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
 
-									<li class="nav-item dropdown">
-										<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ESG경영<i
-												class="fa fa-angle-down"></i></a>
-										<ul class="dropdown-menu" role="menu">
-											<li><a href="esg.html">ESG 추진방향</a></li>
-										</ul>
-									</li>
+                    <li class="nav-item dropdown">
+                      <a
+                        href="#"
+                        class="nav-link dropdown-toggle"
+                        data-toggle="dropdown"
+                        >오시는 길 <i class="fa fa-angle-down"></i
+                      ></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="/loca00.html">본사</a></li>
+                        <li><a href="/loca01_AOC.html">지역본부</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <!-- 상단 네비게이션 바 end -->
+              </nav>
+            </div>
+            <!--/ Col end -->
+          </div>
+          <!--/ Row end -->
+        </div>
+        <!--/ Container end -->
+      </div>
+      <!--/ Navigation end -->
+    </header>
+    <!--/ Header end -->
 
-									<li class="nav-item dropdown">
-										<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">윤리경영 <i
-												class="fa fa-angle-down"></i></a>
-										<ul class="dropdown-menu" role="menu">
-											<li><a href="ethics.html">윤리강령</a></li>
-											<li><a href="https://ethics.sk.co.kr/">윤리경영 상담제보</a></li>
-										</ul>
-									</li>
+    <!-- Banner area -->
+    <div
+      id="banner-area"
+      class="banner-area"
+      style="background-image: url(images/banner/banner_05.jpg)"
+    >
+      <div class="banner-text">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="banner-heading">
+                <h1 class="banner-title" style="color: #fdfdfd">오시는 길</h1>
+              </div>
+            </div>
+            <!-- Col end -->
+          </div>
+          <!-- Row end -->
+        </div>
+        <!-- Container end -->
+      </div>
+      <!-- Banner text end -->
+    </div>
+    <!-- Banner area end -->
 
-									<li class="nav-item dropdown">
-										<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">오시는 길 <i
-												class="fa fa-angle-down"></i></a>
-										<ul class="dropdown-menu" role="menu">
-											<li><a href="/loca00.html">본사</a></li>
-											<li><a href="/loca01_AOC.html">지역담당</a></li>
-										</ul>
-									</li>
-								</ul>
-							</div>
-							<!-- 상단 네비게이션 바 end -->
-						</nav>
-					</div>
-					<!--/ Col end -->
-				</div>
-				<!--/ Row end -->
-			</div>
-			<!--/ Container end -->
+    <!-- 중간 메뉴 area -->
+    <div class="container" style="margin-top: 20px">
+      <div class="row">
+        <div class="col-lg-12">
+          <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <div>
+              <h1 style="color: #6f6f6f !important">지역본부</h1>
+            </div>
 
-		</div>
-		<!--/ Navigation end -->
-	</header>
-	<!--/ Header end -->
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav ml-auto align-items-center">
+                <li>
+                  <a href="loca01_AOC.html" style="color: #6f6f6f !important"
+                    >HOME - 오시는 길 - 지역본부</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <!--/ Col end -->
+      </div>
+      <!--/ Row end -->
+    </div>
+    <!--/ Container end -->
+    <!-- 중간 메뉴 area end-->
 
+    <hr
+      style="
+        border-top: 1px solid #6f6f6f;
+        width: 1200px;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+      "
+    />
 
+    <!-- 사업분야 소개  -->
+    <section id="main-container" class="main-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-4">
+            <div class="sidebar sidebar-left">
+              <div class="widget">
+                <h3 class="widget-title">찾아오시는 길</h3>
+                <ul class="nav service-menu">
+                  <li><a href="loca01_AOC.html">AOC</a></li>
+                  <li class="active"><a href="loca13.html">SO</a></li>
+                  <li><a href="loca14.html">전송</a></li>
+                  <li><a href="loca12.html">자산운영</a></li>
 
-	<!-- Banner area -->
-	<div id="banner-area" class="banner-area" style="background-image:url(images/banner/banner_05.jpg)">
-		<div class="banner-text">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="banner-heading">
-							<h1 class="banner-title" style="color: #fdfdfd;">오시는 길</h1>
-						</div>
-					</div><!-- Col end -->
-				</div><!-- Row end -->
-			</div><!-- Container end -->
-		</div><!-- Banner text end -->
-	</div><!-- Banner area end -->
+                  <li><a href="loca01.html">강남Access본부</a></li>
+                  <li><a href="loca02.html">강북Access본부</a></li>
+                  <li><a href="loca03.html">인천Access본부</a></li>
+                  <li><a href="loca04.html">경기Access본부</a></li>
+                  <li><a href="loca05.html">경남Access본부</a></li>
+                  <li><a href="loca06.html">경북Access본부</a></li>
+                  <li><a href="loca07.html">전남Access본부</a></li>
+                  <li><a href="loca08.html">전북Access본부</a></li>
+                  <li><a href="loca09.html">충남Access본부</a></li>
+                  <li><a href="loca10.html">충북Access본부</a></li>
+                  <li><a href="loca11.html">강원Access본부</a></li>
+                </ul>
+              </div>
+              <!-- Widget end -->
+            </div>
+            <!-- Sidebar end -->
+          </div>
+          <!-- Sidebar Col end -->
 
-	<!-- 중간 메뉴 area -->
-	<div class="container" style="margin-top: 20px;">
-		<div class="row">
-			<div class="col-lg-12">
-				<nav class="navbar navbar-expand-lg navbar-light p-0">
+          <div class="col-xl-8 col-lg-8">
+            <div class="content-inner-page">
+              <div>
+                <h1 class="column-title mrt-0">SO 사무실</h1>
+              </div>
+              <div
+                id="map"
+                class="map"
+                style="width: 100%; height: 500px"
+              ></div>
+              <div class="gap-30"></div>
 
-					<div>
-						<h1 style="color:#6f6f6f !important;">지역담당</h1>
-					</div>
+              <!-- 주소 안내 -->
+              <hr
+                style="
+                  border-top: 3px solid #222222;
+                  width: 100%;
+                  text-align: center;
+                  padding: 0;
+                  margin: 0 auto;
+                "
+              />
+              <div class="gap-20"></div>
+              <div class="row">
+                <div class="col-lg-1 text-center">
+                  <img
+                    src="/images/icon-image/location_icon.png"
+                    alt="location_icon"
+                  />
+                </div>
+                <div class="col-lg-2 align-self-center">주소</div>
+                <div class="col-lg-9 align-self-center">
+                  서울특별시 성동구 광나루로6길 36 SKT 성수사옥 7층
+                </div>
+              </div>
+              <div class="gap-20"></div>
+              <hr
+                style="
+                  border-top: 1px solid #c2c2c2;
+                  width: 100%;
+                  text-align: center;
+                  padding: 0;
+                  margin: 0 auto;
+                "
+              />
+              <!-- 주소 안내 end -->
+            </div>
+            <!-- Content Col end -->
+          </div>
+          <!-- Main row end -->
+        </div>
+        <!-- Conatiner end -->
+      </div>
+      <!-- row end -->
+    </section>
+    <!-- Main container end -->
+    <!-- 사업분야 소개  end-->
 
-					<div class="collapse navbar-collapse">
-						<ul class="nav navbar-nav ml-auto align-items-center">
-							<li>
-								<a href="loca01_AOC.html" style="color:#6f6f6f !important;">HOME - 오시는 길 - 지역담당</a>
-							</li>
+    <footer id="footer" class="footer bg-overlay">
+      <div class="footer-main">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-2 col-md-6 footer-widget footer-about">
+              <!-- <h3 class="widget-title">About Us</h3> -->
+              <img
+                loading="lazy"
+                class="footer-logo"
+                src="images/logo/footer-sk_logo.png"
+                alt="skons_logo"
+              />
+            </div>
+            <!-- Col end -->
 
-						</ul>
-					</div>
+            <div class="col-lg-8 col-md-6 footer-widget mt-5 mt-md-0">
+              <!-- <h3 class="widget-title">Working Hours</h3> -->
+              <div class="working-hours">
+                <div>
+                  <span
+                    >07208 서울특별시 영등포구 선유로 49길 23 아이에스비즈타워
+                    2차 9F SK오앤에스(주)
+                  </span>
+                  <span>&nbsp;|&nbsp; </span>
+                  <span>대표이사 최승원</span>
+                </div>
+                <div>
+                  <span>전화 02-6123-2200</span>
+                  <span>&nbsp;|&nbsp; </span>
+                  <span>채용문의 : SKONSRECRUIT@SK.COM</span>
+                </div>
+                <div>
+                  Copyright &copy; SK ons co,. Ltd. All rights reserved.
+                </div>
+              </div>
+            </div>
+            <!-- Col end -->
+          </div>
+          <!-- Row end -->
+        </div>
+        <!-- Container end -->
+      </div>
+      <!-- Footer main end -->
 
-				</nav>
-			</div>
-			<!--/ Col end -->
-		</div>
-		<!--/ Row end -->
-	</div>
-	<!--/ Container end -->
-	<!-- 중간 메뉴 area end-->
+      <div
+        id="back-to-top"
+        data-spy="affix"
+        data-offset-top="10"
+        class="back-to-top position-fixed"
+      >
+        <button class="btn btn-primary" title="Back to Top">
+          <i class="fa fa-angle-double-up"></i>
+        </button>
+      </div>
+    </footer>
+    <!-- Footer end -->
 
+    <script>
+      var HOME_PATH = window.HOME_PATH || ".";
 
-	<hr style=" border-top: 1px solid #6f6f6f;
-            width: 1200px;
-            text-align:center;
-            padding: 0;
-            margin :0 auto;">
+      var cityhall = new naver.maps.LatLng(
+          37.54609550399398,
+          127.06279431080583
+        ),
+        map = new naver.maps.Map("map", {
+          center: cityhall.destinationPoint(0, 100),
+          zoom: 17,
+        }),
+        marker = new naver.maps.Marker({
+          map: map,
+          position: cityhall,
+        });
 
+      var contentString = [
+        '<div class="text-center" style = "margin: 10px;">',
+        "   <h4>SK오앤에스 SO </h4>",
+        "</div>",
+      ].join("");
 
-	<!-- 사업분야 소개  -->
-	<section id="main-container" class="main-container">
-		<div class="container">
-			<div class="row">
+      var infowindow = new naver.maps.InfoWindow({
+        content: contentString,
+        borderColor: "#FF7A00",
+        borderWidth: 2,
+        maxWidth: 500,
+      });
 
-				<div class="col-xl-3 col-lg-4">
-					<div class="sidebar sidebar-left">
-						<div class="widget">
-							<h3 class="widget-title">찾아오시는 길</h3>
-							<ul class="nav service-menu">
-								<li><a href="loca01_AOC.html">AOC</a></li>
-								<li class="active"><a href="loca13.html">SO</a></li>
-								<li><a href="loca14.html">전송</a></li>
-								<li><a href="loca12.html">수도권자산운영</a></li>
-								<li><a href="loca12_2.html">지역자산운영</a></li>
-								<li><a href="loca01.html">강남Access</a></li>
-								<li><a href="loca02.html">강북Access</a></li>
-								<li><a href="loca03.html">인천Access</a></li>
-								<li><a href="loca04.html">경기Access</a></li>
-								<li><a href="loca05.html">경남Access</a></li>
-								<li><a href="loca06.html">경북Access</a></li>
-								<li><a href="loca07.html">전남Access</a></li>
-								<li><a href="loca08.html">전북Access</a></li>
-								<li><a href="loca09.html">충남Access</a></li>
-								<li><a href="loca10.html">충북Access</a></li>
-								<li><a href="loca11.html">강원Access</a></li>
-							</ul>
-						</div><!-- Widget end -->
+      naver.maps.Event.addListener(marker, "click", function (e) {
+        if (infowindow.getMap()) {
+          infowindow.close();
+        } else {
+          infowindow.open(map, marker);
+        }
+      });
 
-					</div><!-- Sidebar end -->
-				</div><!-- Sidebar Col end -->
-
-				<div class="col-xl-8 col-lg-8">
-					<div class="content-inner-page">
-						<div>
-							<h1 class="column-title mrt-0">SO 사무실</h1>
-						</div>
-						<div id="map" class="map" style="width:100%;height:500px;"></div>
-						<div class="gap-30"></div>
-
-						<!-- 주소 안내 -->
-						<hr style=" border-top: 3px solid #222222;
-												width: 100%;
-												text-align:center;
-												padding: 0;
-												margin :0 auto;">
-						<div class="gap-20"></div>
-						<div class="row">
-							<div class="col-lg-1 text-center">
-								<img src="/images/icon-image/location_icon.png" alt="location_icon">
-							</div>
-							<div class="col-lg-2 align-self-center">
-								주소
-							</div>
-							<div class="col-lg-9 align-self-center">
-								서울특별시 성동구 광나루로6길 36 SKT 성수사옥 7층
-							</div>
-						</div>
-						<div class="gap-20"></div>
-						<hr style=" border-top: 1px solid #c2c2c2;
-												width: 100%;
-												text-align:center;
-												padding: 0;
-												margin :0 auto;">
-						<!-- 주소 안내 end -->
-
-					</div><!-- Content Col end -->
-				</div><!-- Main row end -->
-			</div><!-- Conatiner end -->
-		</div><!-- row end -->
-	</section><!-- Main container end -->
-	<!-- 사업분야 소개  end-->
-
-
-	<footer id="footer" class="footer bg-overlay">
-		<div class="footer-main">
-			<div class="container">
-				<div class="row justify-content-between">
-					<div class="col-lg-2 col-md-6 footer-widget footer-about">
-						<!-- <h3 class="widget-title">About Us</h3> -->
-						<img loading="lazy" class="footer-logo" src="images/logo/footer-sk_logo.png" alt="skons_logo">
-					</div><!-- Col end -->
-
-					<div class="col-lg-8 col-md-6 footer-widget mt-5 mt-md-0">
-						<!-- <h3 class="widget-title">Working Hours</h3> -->
-						<div class="working-hours">
-							<div>
-								<span>07208 서울특별시 영등포구 선유로 49길 23 아이에스비즈타워 2차 9F SK오앤에스(주) </span>
-								<span>&nbsp;|&nbsp; </span>
-								<span>대표이사 최승원</span>
-							</div>
-							<div>
-								<span>전화 02-6123-2200</span>
-								<span>&nbsp;|&nbsp; </span>
-								<span>채용문의 : SKONSRECRUIT@SK.COM</span>
-							</div>
-							<div>Copyright &copy; SK ons co,. Ltd. All rights reserved.</div>
-						</div>
-					</div><!-- Col end -->
-
-
-				</div><!-- Row end -->
-			</div><!-- Container end -->
-		</div><!-- Footer main end -->
-
-
-		<div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
-			<button class="btn btn-primary" title="Back to Top">
-				<i class="fa fa-angle-double-up"></i>
-			</button>
-		</div>
-
-
-	</footer><!-- Footer end -->
-
-
-	<script>
-		var HOME_PATH = window.HOME_PATH || '.';
-
-		var cityhall = new naver.maps.LatLng(37.54609550399398, 127.06279431080583),
-			map = new naver.maps.Map('map', {
-				center: cityhall.destinationPoint(0, 100),
-				zoom: 17,
-			}),
-			marker = new naver.maps.Marker({
-				map: map,
-				position: cityhall
-			});
-
-		var contentString = [
-			'<div class="text-center" style = "margin: 10px;">',
-			'   <h4>SK오앤에스 SO </h4>',
-			'</div>'
-		].join('');
-
-		var infowindow = new naver.maps.InfoWindow({
-			content: contentString,
-			borderColor: "#FF7A00",
-			borderWidth: 2,
-			maxWidth: 500,
-		});
-
-		naver.maps.Event.addListener(marker, "click", function (e) {
-			if (infowindow.getMap()) {
-				infowindow.close();
-			} else {
-				infowindow.open(map, marker);
-			}
-		});
-
-		infowindow.open(map, marker);
-	</script>
-	<!-- Javascript Files
+      infowindow.open(map, marker);
+    </script>
+    <!-- Javascript Files
   ================================================== -->
 
-	<!-- initialize jQuery Library -->
-	<script src="plugins/jQuery/jquery.min.js"></script>
-	<!-- Bootstrap jQuery -->
-	<script src="plugins/bootstrap/bootstrap.min.js" defer></script>
-	<!-- Slick Carousel -->
-	<script src="plugins/slick/slick.min.js"></script>
-	<script src="plugins/slick/slick-animation.min.js"></script>
-	<!-- Color box -->
-	<script src="plugins/colorbox/jquery.colorbox.js"></script>
-	<!-- shuffle -->
-	<script src="plugins/shuffle/shuffle.min.js" defer></script>
+    <!-- initialize jQuery Library -->
+    <script src="plugins/jQuery/jquery.min.js"></script>
+    <!-- Bootstrap jQuery -->
+    <script src="plugins/bootstrap/bootstrap.min.js" defer></script>
+    <!-- Slick Carousel -->
+    <script src="plugins/slick/slick.min.js"></script>
+    <script src="plugins/slick/slick-animation.min.js"></script>
+    <!-- Color box -->
+    <script src="plugins/colorbox/jquery.colorbox.js"></script>
+    <!-- shuffle -->
+    <script src="plugins/shuffle/shuffle.min.js" defer></script>
 
-	<!-- Template custom -->
-	<script src="js/script.js"></script>
-
-
-</body>
-
+    <!-- Template custom -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
