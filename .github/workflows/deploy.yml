@@ -1,0 +1,29 @@
+name: Deploy to SKO Server
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.8.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Add host key
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -H 172.19.152.52 >> ~/.ssh/known_hosts
+
+      - name: Deploy to server
+        run: |
+          rsync -avz --delete ./ skons@172.19.152.52:/home/skons/gitpush/
+
+      - name: Move files to web directory and restart Nginx
+        run: |
+          ssh skons@172.19.152.52 'sudo rsync -avz --delete /home/skons/gitpush/ /var/www/skons/ && sudo systemctl restart nginx'
